@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5066D28D1D82E88E0021DEC9 /* HKConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5066D28C1D82E88E0021DEC9 /* HKConstraint.swift */; };
+		5066D28F1D83DDD80021DEC9 /* UIColor+HKExts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5066D28E1D83DDD80021DEC9 /* UIColor+HKExts.swift */; };
 		50CB5A5D1D7DC798009D1C82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CB5A5C1D7DC798009D1C82 /* AppDelegate.swift */; };
 		50CB5A5F1D7DC798009D1C82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CB5A5E1D7DC798009D1C82 /* ViewController.swift */; };
 		50CB5A621D7DC798009D1C82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50CB5A601D7DC798009D1C82 /* Main.storyboard */; };
 		50CB5A641D7DC798009D1C82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50CB5A631D7DC798009D1C82 /* Assets.xcassets */; };
 		50CB5A671D7DC798009D1C82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50CB5A651D7DC798009D1C82 /* LaunchScreen.storyboard */; };
+		50CB5A701D7DC7DA009D1C82 /* HKLayoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CB5A6F1D7DC7DA009D1C82 /* HKLayoutable.swift */; };
+		50CB5A721D7DC80D009D1C82 /* HKLayoutOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CB5A711D7DC80D009D1C82 /* HKLayoutOperators.swift */; };
+		50CB5A781D7E6150009D1C82 /* UIView+HKLayoutExts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CB5A771D7E6150009D1C82 /* UIView+HKLayoutExts.swift */; };
+		50CB5A7A1D7E7478009D1C82 /* HKLayout+Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CB5A791D7E7478009D1C82 /* HKLayout+Value.swift */; };
+		50CB5A821D7FC349009D1C82 /* HKLayoutMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CB5A811D7FC349009D1C82 /* HKLayoutMaker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5066D28C1D82E88E0021DEC9 /* HKConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKConstraint.swift; sourceTree = "<group>"; };
+		5066D28E1D83DDD80021DEC9 /* UIColor+HKExts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+HKExts.swift"; sourceTree = "<group>"; };
 		50CB5A591D7DC798009D1C82 /* HKLayoutKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HKLayoutKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50CB5A5C1D7DC798009D1C82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50CB5A5E1D7DC798009D1C82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,11 @@
 		50CB5A631D7DC798009D1C82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50CB5A661D7DC798009D1C82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50CB5A681D7DC798009D1C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50CB5A6F1D7DC7DA009D1C82 /* HKLayoutable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKLayoutable.swift; sourceTree = "<group>"; };
+		50CB5A711D7DC80D009D1C82 /* HKLayoutOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKLayoutOperators.swift; sourceTree = "<group>"; };
+		50CB5A771D7E6150009D1C82 /* UIView+HKLayoutExts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+HKLayoutExts.swift"; sourceTree = "<group>"; };
+		50CB5A791D7E7478009D1C82 /* HKLayout+Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HKLayout+Value.swift"; sourceTree = "<group>"; };
+		50CB5A811D7FC349009D1C82 /* HKLayoutMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKLayoutMaker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,29 @@
 		50CB5A5B1D7DC798009D1C82 /* HKLayoutKit */ = {
 			isa = PBXGroup;
 			children = (
+				50CB5A6E1D7DC7AE009D1C82 /* classes */,
 				50CB5A5C1D7DC798009D1C82 /* AppDelegate.swift */,
 				50CB5A5E1D7DC798009D1C82 /* ViewController.swift */,
 				50CB5A601D7DC798009D1C82 /* Main.storyboard */,
 				50CB5A631D7DC798009D1C82 /* Assets.xcassets */,
 				50CB5A651D7DC798009D1C82 /* LaunchScreen.storyboard */,
 				50CB5A681D7DC798009D1C82 /* Info.plist */,
+				5066D28E1D83DDD80021DEC9 /* UIColor+HKExts.swift */,
 			);
 			path = HKLayoutKit;
+			sourceTree = "<group>";
+		};
+		50CB5A6E1D7DC7AE009D1C82 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				50CB5A6F1D7DC7DA009D1C82 /* HKLayoutable.swift */,
+				50CB5A711D7DC80D009D1C82 /* HKLayoutOperators.swift */,
+				50CB5A771D7E6150009D1C82 /* UIView+HKLayoutExts.swift */,
+				50CB5A791D7E7478009D1C82 /* HKLayout+Value.swift */,
+				50CB5A811D7FC349009D1C82 /* HKLayoutMaker.swift */,
+				5066D28C1D82E88E0021DEC9 /* HKConstraint.swift */,
+			);
+			path = classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50CB5A7A1D7E7478009D1C82 /* HKLayout+Value.swift in Sources */,
 				50CB5A5F1D7DC798009D1C82 /* ViewController.swift in Sources */,
 				50CB5A5D1D7DC798009D1C82 /* AppDelegate.swift in Sources */,
+				50CB5A721D7DC80D009D1C82 /* HKLayoutOperators.swift in Sources */,
+				50CB5A821D7FC349009D1C82 /* HKLayoutMaker.swift in Sources */,
+				5066D28D1D82E88E0021DEC9 /* HKConstraint.swift in Sources */,
+				50CB5A781D7E6150009D1C82 /* UIView+HKLayoutExts.swift in Sources */,
+				50CB5A701D7DC7DA009D1C82 /* HKLayoutable.swift in Sources */,
+				5066D28F1D83DDD80021DEC9 /* UIColor+HKExts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +286,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HKLayoutKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhk.ios.HKLayoutKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -261,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HKLayoutKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhk.ios.HKLayoutKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,6 +324,7 @@
 				50CB5A6D1D7DC798009D1C82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
